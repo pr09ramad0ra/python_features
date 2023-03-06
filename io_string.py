@@ -25,7 +25,9 @@ mutable_string.write(" changed to Mutable")
 print(mutable_string.getvalue())
 # Immutable string changed to Mutable
 
-# close the stream and check it is not readable and wirtable anymore
+# close the stream and check it is not readable and writable anymore
 mutable_string.close()
 print(mutable_string.writable())
 print(mutable_string.readable())
+
+https://docs.python.org/3/library/io.html#io.StringIO
